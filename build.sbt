@@ -1,10 +1,10 @@
 name          := "fastarious"
-organization  := "ohnosequences"
+organization  := "com.miodx.clonomap"
+version       := "0.12.0"
 description   := "FASTQ and FASTA APIs"
 bucketSuffix  := "era7.com"
 
-crossScalaVersions := Seq("2.11.11", "2.12.3")
-scalaVersion := crossScalaVersions.value.max
+scalaVersion  := "2.12.8"
 
 libraryDependencies ++= Seq(
   "org.scalatest" %% "scalatest" % "3.0.4" % Test
